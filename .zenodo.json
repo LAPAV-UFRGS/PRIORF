@@ -1,7 +1,7 @@
 {
   "upload_type": "software",
-  "title": "PRIORI - Protocol for Road Infrastructure Operational Risk due to Inundation",
-  "description": "Protocol for Road Infrastructure Operational Risk due to Inundation",
+  "title": "PRIORF - Protocol for Road Infrastructure Operational Risk due to Flooding",
+  "description": "Protocol for Road Infrastructure Operational Risk due to Flooding",
   "creators": [
     {
       "name": "Moreira, Igor Sieczkowski",
@@ -14,7 +14,7 @@
   "related_identifiers": [
     {
       "relation": "isSupplementTo",
-      "identifier": "https://github.com/igorsiecz/PRIORI"
+      "identifier": "https://github.com/igorsiecz/PRIORF"
     }
   ],
   "notes": "See CITATION.cff for citation info. Changelog in CHANGELOG.md."

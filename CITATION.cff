@@ -1,14 +1,14 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-title: PRIORI - Protocol for Road Infrastructure Operational Risk due to Inundation
+title: PRIORF - Protocol for Road Infrastructure Operational Risk due to Flooding
 type: software
 authors:
   - family-names: Sieczkowski Moreira
     given-names: Igor
     orcid: https://orcid.org/0000-0001-8101-6669
-repository-code: https://github.com/igorsiecz/PRIORI
+repository-code: https://github.com/igorsiecz/PRIORF
 license: Apache-2.0
-version: 2.0.1
+version: 2.1.0
 date-released: 2025-11-03
 doi: 10.5281/zenodo.17168269
 identifiers:

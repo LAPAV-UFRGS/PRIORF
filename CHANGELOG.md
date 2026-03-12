@@ -1,3 +1,7 @@
+## [2.1.0] - 2026-03-12
+### Changed
+- Name change from “Protocol for Road Infrastructure Operational Risk due to Inundation” to “Protocol for Road Infrastructure Operational Risk due to Flooding”, as inundation was found to be conceptually inaccurate for the intended phenomenon.
+
 ## [2.0.1] - 2025-11-03
 ### Fixed
 - Resolved NoData-only outputs by hardening raster alignment prior to inference.

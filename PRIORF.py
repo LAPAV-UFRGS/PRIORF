@@ -1,8 +1,8 @@
 # SPDX-License-Identifier: Apache-2.0
-# Copyright (c) 2025 Igor Sieczkowski Moreira
+# Copyright (c) 2026 Igor Sieczkowski Moreira
 
-# PRIORI.py
-__version__ = "2.0.0"
+# PRIORF.py
+__version__ = "2.1.0"
 
 import re
 import sys
@@ -124,14 +124,14 @@ DEFAULT_MODELS = [
         "path": "Database/model_rf.joblib",
         "sha256": "C1E02E41FE6B6CA0E8C65C4FDF235F41A93454DAB1F8C5DB6B447DCE4F20FF7B",
         "urls": [
-            "https://github.com/igorsiecz/PRIORI/releases/download/v2.0.0/model_rf.joblib",
+            "https://github.com/igorsiecz/PRIORF/releases/download/v2.0.0/model_rf.joblib",
         ],
     },
     {
         "path": "Database/model_hgbr.joblib",
         "sha256": "4C767E0F862EC243AD9B72AC56D98EC130F2F062849C9F0ADD24EEC7B6BE9B89",
         "urls": [
-            "https://github.com/igorsiecz/PRIORI/releases/download/v2.0.0/model_hgbr.joblib",
+            "https://github.com/igorsiecz/PRIORF/releases/download/v2.0.0/model_hgbr.joblib",
         ],
     },
 ]
@@ -305,8 +305,8 @@ FONT_FOOTER = ("Sans Serif", 12)
 FONT_BODY = ("Sans Serif", 14)
 ICON_DIR = "Icons"
 APP_WIDTH, APP_HEIGHT = 1040, 720
-APP_NAME = "PRIORI – Flood Operational Risk"
-APP_VERSION = "v1.0.0"
+APP_NAME = "PRIORF – Flood Operational Risk"
+APP_VERSION = f"{__version__}"
 
 
 def center_window(root, w, h):
@@ -332,7 +332,7 @@ def load_image(path, max_height=None, max_side=None):
 
 
 ABOUT_TEXT = f"""
-PRIORI (Protocol for Road Infrastructure Operational Risk due to Inundation)
+PRIORF (Protocol for Road Infrastructure Operational Risk due to Flooding)
 
 This software is part of a Master's dissertation (Academic Innovation modality) developed at UFRGS,
 with methodological partnership from the University of Birmingham (UoB) and collaboration from LAPAV and IPH laboratories.
@@ -346,7 +346,7 @@ Supervision: Prof. Lélio A. T. Brito (LAPAV / UFRGS) and co-supervision by Prof
 Scope: Assess the operational flood risk of road infrastructure assets by integrating susceptibility and vulnerability,
 supporting intervention prioritization and resilient planning.
 
-Disclaimer: Initial version ({APP_VERSION}) – under continuous development. Results must be interpreted considering input data quality,
+Disclaimer: v{APP_VERSION} – under continuous development. Results must be interpreted considering input data quality,
 calibration parameters and the accompanying methodological documentation.
 
 Contact: igor.moreira@ufrgs.br
@@ -354,7 +354,7 @@ Contact: igor.moreira@ufrgs.br
 
 def open_about(parent):
     about = ctk.CTkToplevel(parent)
-    about.title("About – PRIORI")
+    about.title("About – PRIORF")
     about.configure(fg_color=Theme.BG)
     w, h = 700, 680
     center_window(about, w, h)
@@ -495,7 +495,7 @@ def initialize_tela_inicial():
     root.grid_columnconfigure(1, weight=1)
     build_hero(root, root, start_callback=lambda: iniciar_fluxo(root), exit_callback=lambda: on_close(root))
     build_partners(root)
-    footer = ctk.CTkLabel(root, text=f"© 2025 PRIORI – UFRGS / LAPAV  •  {APP_VERSION}", font=FONT_FOOTER, text_color=Theme.MUTED)
+    footer = ctk.CTkLabel(root, text=f"© 2026 PRIORF – UFRGS / LAPAV  •  {APP_VERSION}", font=FONT_FOOTER, text_color=Theme.MUTED)
     footer.place(relx=0.5, rely=0.985, anchor="s")
     root.protocol("WM_DELETE_WINDOW", lambda: on_close(root))
     root.mainloop()
@@ -587,7 +587,7 @@ def mostrar_tela_logs(north_east_lat, north_east_lng, south_west_lat, south_west
     global root_logs, log_container
     root_logs = ctk.CTk(fg_color=BG_COLOR)
     root_logs.report_callback_exception = suppress_tcl_errors
-    root_logs.title("PRIORI Execution Log")
+    root_logs.title("PRIORF Execution Log")
     root_logs.iconbitmap(logo_ico)
     w, h = 1180, 720
     root_logs.geometry(f"{w}x{h}")
@@ -604,7 +604,7 @@ def mostrar_tela_logs(north_east_lat, north_east_lng, south_west_lat, south_west
     header.grid_columnconfigure(0, weight=1)
     ctk.CTkLabel(
         header,
-        text="PRIORI – Flood Risk Report",
+        text="PRIORF – Flood Risk Report",
         font=FONT_HEADER,
         text_color=TITLE_COLOR
     ).grid(row=0, column=0, pady=(10, 0))
@@ -3089,8 +3089,8 @@ def run_priori(north_east_lat, north_east_lng, south_west_lat, south_west_lng, r
 
 if __name__ == "__main__":
 
-    parser = argparse.ArgumentParser(description="PRIORI — Protocol for Road Infrastructure Operational Risk due to Inundation")
-    parser.add_argument("--version", action="store_true", help="Show PRIORI version and exit")
+    parser = argparse.ArgumentParser(description="PRIORF — Protocol for Road Infrastructure Operational Risk due to Flooding")
+    parser.add_argument("--version", action="store_true", help="Show PRIORF version and exit")
     args = parser.parse_args()
     if args.version:
         print(__version__)

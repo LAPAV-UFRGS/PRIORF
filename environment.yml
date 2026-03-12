@@ -1,4 +1,4 @@
-name: priori-conda
+name: priorf-conda
 channels:
   - conda-forge
 dependencies:

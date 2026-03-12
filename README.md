@@ -2,11 +2,11 @@
   <img src="Icons/white_logo.png" alt="PRIORI Logo" height="110">
 </p>
 
-<h1 align="center">Protocol for Road Infrastructure Operational Risk due to Inundation</h1>
+<h1 align="center">Protocol for Road Infrastructure Operational Risk due to Flooding</h1>
 <h5 align="center">A GIS-based framework to assess flood-related operational risk in road networks.</h5>
 
 <p align="center">
-  <a href="https://github.com/igorsiecz/PRIORI/releases"><img src="https://img.shields.io/github/v/tag/igorsiecz/PRIORI?label=version&sort=semver&cacheSeconds=120" alt="Version"></a>&nbsp;
+  <a href="https://github.com/igorsiecz/PRIORF/releases"><img src="https://img.shields.io/github/v/tag/igorsiecz/PRIORF?label=version&sort=semver&cacheSeconds=120" alt="Version"></a>&nbsp;
   <a href="https://doi.org/10.5281/zenodo.17168269"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.17168269.svg" alt="DOI"></a>&nbsp;
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white" alt="Python Version">&nbsp;
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License"></a>
@@ -23,7 +23,8 @@
 <h3 align="center">Eng. Igor Sieczkowski Moreira</h3>
 
 <h5 align="center">
-  <b>M.Sc. Candidate in Civil Engineering (PPGCI – UFRGS)</b><br>
+  <b>Ph.d. Candidate in Civil Engineering (PPGCI – UFRGS)</b><br>
+  <b>M.Sc. in Civil Engineering (PPGCI – UFRGS)</b><br>
   <b>B.Sc. Civil Engineering (UFRGS) | Member of the LAPAV Laboratory</b><br>
 </h5>
 
@@ -53,7 +54,7 @@
 
 <p align="center" style="font-size:16px; line-height:1.7;">
   <a href="#how-to-cite--license">How to Cite & License</a> •
-  <a href="#the-priori-framework">The PRIORI Framework</a> •
+  <a href="#the-priorf-framework">The PRIORF Framework</a> •
   <a href="#quickstart">Quickstart</a> •
   <a href="#installation">Installation</a> •
   <a href="#troubleshooting-faq">Troubleshooting (FAQ)</a> •
@@ -66,19 +67,19 @@
 <h2 align="center">📄 How to Cite & License</h2>
 
 <p align="center" style="font-size:15px; line-height:1.6;">
-  If you use <b>PRIORI</b> in your research, please cite the official archived release:
+  If you use <b>PRIORF</b> in your research, please cite the official archived release:
 </p>
 
 <h3 align="left" style="margin-top:40px;">📄 Standard Citation</h3>
 <h4>
-Moreira, I. S. (2025). PRIORI – Protocol for Road Infrastructure Operational Risk due to Inundation. Zenodo. https://doi.org/10.5281/zenodo.17168269
+Moreira, I. S. (2025). PRIORF – Protocol for Road Infrastructure Operational Risk due to Flooding. Zenodo. https://doi.org/10.5281/zenodo.17168269
 </h4>
 
 ### 📘 **BibTeX format**
 ```bibtex
 @software{moreira_2025_17168269,
   author       = {Moreira, Igor Sieczkowski},
-  title        = {PRIORI – Protocol for Road Infrastructure Operational Risk due to Inundation},
+  title        = {PRIORF – Protocol for Road Infrastructure Operational Risk due to Flooding},
   year         = {2025},
   publisher    = {Zenodo},
   doi          = {10.5281/zenodo.17168269},
@@ -92,21 +93,21 @@ See the <a href="LICENSE"><code>LICENSE</code></a> file for full terms.
 
 ---
 
-<a id="the-priori-framework"></a>
-<h2 align="center">🌐 The PRIORI Framework</h2>
+<a id="the-priorf-framework"></a>
+<h2 align="center">🌐 The PRIORF Framework</h2>
 
 <p align="center" style="font-size:15px; line-height:1.7; max-width:850px; margin:auto;">
-<b>PRIORI</b> (<i>Protocol for Road Infrastructure Operational Risk due to Inundation</i>) 
+<b>PRIORF</b> (<i>Protocol for Road Infrastructure Operational Risk due to Flooding</i>) 
 is a <b>GIS-based framework</b> designed to quantify <b>flood-related operational risk</b> in road networks.  
 It integrates <b>geomorphological susceptibility</b>, <b>multi-criteria vulnerability</b>, and <b>exposure mapping</b> into an automated and transparent workflow for risk evaluation.  
-<b>PRIORI</b> targets <b>operational risk</b> — the potential for <b>service disruption</b> — rather than physical asset fragility modelling.  
+<b>PRIORF</b> targets <b>operational risk</b> — the potential for <b>service disruption</b> — rather than physical asset fragility modelling.  
 It is ideal for <b>screening, planning,</b> and <b>prioritization</b> at municipal to regional scales.
 </p>
 
 <h3 align="left" style="margin-top:35px;">🧭 Why it matters</h3>
 
 <p align="left" style="font-size:15px; line-height:1.7; max-width:850px; margin:auto;">
-In data-scarce contexts, <b>PRIORI</b> replaces unavailable hydrodynamic simulations with geomorphological proxies 
+In data-scarce contexts, <b>PRIORF</b> replaces unavailable hydrodynamic simulations with geomorphological proxies 
 (<b>HAND</b> & <b>MRVBF</b>) to estimate flood susceptibility.  
 Its <b>road-centric vulnerability model</b> blends <b>social, economic, and functional</b> indicators 
 to measure how critical a road segment is for local accessibility and regional connectivity.
@@ -127,7 +128,7 @@ to measure how critical a road segment is for local accessibility and regional c
 <h2 align="center">⚡ Quickstart</h2>
 
 <p align="center" style="font-size:15px; line-height:1.9; max-width:1000px; margin:auto; margin-bottom:25px;">
-Get started with <b>PRIORI</b> in just a few steps — from cloning to running your first analysis.
+Get started with <b>PRIORF</b> in just a few steps — from cloning to running your first analysis.
 </p>
 
 <div style="max-width:1000px; margin:0 auto;">
@@ -135,14 +136,14 @@ Get started with <b>PRIORI</b> in just a few steps — from cloning to running y
   <tr style="background-color:rgba(255,255,255,0.05);">
     <td style="padding:15px 25px;">
       💾 <b style="font-size:18px;">1. Clone the repository</b><br>
-      <code>git clone https://github.com/igorsiecz/PRIORI.git && cd PRIORI</code><br>
+      <code>git clone https://github.com/igorsiecz/PRIORF.git && cd PRIORF</code><br>
       Clone the latest version of the repository to your local machine.
     </td>
   </tr>
   <tr>
     <td style="padding:15px 25px;">
       🧩 <b style="font-size:18px;">2. Create and activate the Conda environment</b><br>
-      <code>conda env create -f environment.yml && conda activate priori-conda</code><br>
+      <code>conda env create -f environment.yml && conda activate priorf-conda</code><br>
       Installs all dependencies using the pinned <b>conda-forge</b> geospatial stack.
     </td>
   </tr>
@@ -163,7 +164,7 @@ Get started with <b>PRIORI</b> in just a few steps — from cloning to running y
   <tr style="background-color:rgba(255,255,255,0.05);">
     <td style="padding:15px 25px;">
       📦 <b style="font-size:18px;">5. Pull required datasets (Git LFS)</b><br>
-      PRIORI stores geospatial data via <b>Git LFS</b>. Currently available artifact:<br>
+      PRIORF stores geospatial data via <b>Git LFS</b>. Currently available artifact:<br>
       <ul style="margin-top:5px;">
         <li><code>BR_Census.gpkg</code> — Brazilian census package</li>
       </ul>
@@ -174,8 +175,8 @@ Get started with <b>PRIORI</b> in just a few steps — from cloning to running y
   </tr>
   <tr>
     <td style="padding:15px 25px;">
-      🚀 <b style="font-size:18px;">6. Run PRIORI</b><br>
-      <code>python PRIORI.py</code><br>
+      🚀 <b style="font-size:18px;">6. Run PRIORF</b><br>
+      <code>python PRIORF.py</code><br>
       Launch the main interface and start analyzing flood-related operational risk.
     </td>
   </tr>
@@ -192,9 +193,9 @@ Get started with <b>PRIORI</b> in just a few steps — from cloning to running y
   <!-- 1) Clone -->
   <tr><td>
     <h3>1) Clone the repository</h3>
-    <p>Download the PRIORI source code and move into the project folder.</p>
-    <pre><code>git clone https://github.com/igorsiecz/PRIORI.git
-cd PRIORI</code></pre>
+    <p>Download the PRIORF source code and move into the project folder.</p>
+    <pre><code>git clone https://github.com/igorsiecz/PRIORF.git
+cd PRIORF</code></pre>
   </td></tr>
   <tr><td><h6 align="center">Tip — If you already cloned it before, just run <code>git pull</code>.</h6></td></tr>
 
@@ -208,9 +209,9 @@ cd PRIORI</code></pre>
       geospatial stack without additional manual configuration.
     </p>
     <pre><code>conda env create -f environment.yml
-conda activate priori-conda</code></pre>
+conda activate priorf-conda</code></pre>
     <p>To update your environment later:</p>
-    <pre><code>conda env update -f environment.yml -n priori-conda</code></pre>
+    <pre><code>conda env update -f environment.yml -n priorf-conda</code></pre>
   </td></tr>
   <tr><td><h6 align="center">Tip — You can use <code>mamba</code> instead of <code>conda</code> for faster solves (optional).</h6></td></tr>
 
@@ -218,7 +219,7 @@ conda activate priori-conda</code></pre>
   <tr><td>
     <h3>3) Install SAGA GIS</h3>
     <p>
-      PRIORI relies on the <b>SAGA GIS</b> command-line tool <code>saga_cmd</code> for terrain
+      PRIORF relies on the <b>SAGA GIS</b> command-line tool <code>saga_cmd</code> for terrain
       indices such as MRVBF. On Windows, installation is easiest through the
       <b>OSGeo4W</b> framework, which provides the required libraries for GDAL/PROJ integration.
     </p>
@@ -257,7 +258,7 @@ PROJ_LIB=%CONDA_PREFIX%\Library\share\proj
   <tr><td>
     <h3>4) Configure Google Earth Engine (Service Account)</h3>
     <p>
-      PRIORI accesses DEMs and satellite assets from <b>Google Earth Engine (GEE)</b>.
+      PRIORF accesses DEMs and satellite assets from <b>Google Earth Engine (GEE)</b>.
       You must authenticate using a <b>Service Account</b> and its <b>JSON key</b>.
     </p>
 
@@ -297,7 +298,7 @@ PROJ_LIB=%CONDA_PREFIX%\Library\share\proj
   <tr><td>
     <h3>5) Get required data (via Git LFS)</h3>
     <p>
-      PRIORI stores large geospatial datasets using <b>Git LFS</b>. You may download specific files
+      PRIORF stores large geospatial datasets using <b>Git LFS</b>. You may download specific files
       instead of fetching all binaries.
     </p>
     <p><b>Currently available artifact:</b></p>
@@ -322,16 +323,16 @@ git lfs pull --include="BR_Census.gpkg" --exclude=""</code></pre>
   <pre><code>python -c "import geopandas, rasterio, pyproj; print('All right!')"</code></pre>
 
   <p>
-    Once dependencies are confirmed, launch PRIORI:
+    Once dependencies are confirmed, launch PRIORF:
   </p>
-  <pre><code>python PRIORI.py</code></pre>
+  <pre><code>python PRIORF.py</code></pre>
 
   <p>
-    When first launched, <b>PRIORI</b> will prompt for your <b>Google Earth Engine Service Account e-mail</b>
+    When first launched, <b>PRIORF</b> will prompt for your <b>Google Earth Engine Service Account e-mail</b>
     and allow you to select the corresponding <code>.json</code> key file for authentication.
     After credentials are validated, the main <b>interactive interface</b> (built with <b>Tkinter</b>) opens.
     The home screen presents a <b>Start</b> button that launches the <b>Region of Interest (ROI)</b> selection window.
-    Once the ROI is defined, PRIORI will ask which analysis modules should be executed:
+    Once the ROI is defined, PRIORF will ask which analysis modules should be executed:
   </p>
 
   <ul>
@@ -346,7 +347,7 @@ git lfs pull --include="BR_Census.gpkg" --exclude=""</code></pre>
   </p>
 
   <p>
-    You can also run PRIORI from <b>PyCharm</b> or another IDE.  
+    You can also run PRIORF from <b>PyCharm</b> or another IDE.  
     Set your working directory to the repository root and ensure <code>SAGA_CMD</code> is defined in environment variables.
   </p>
   </td></tr>
