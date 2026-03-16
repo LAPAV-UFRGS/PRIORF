@@ -72,18 +72,18 @@
 
 <h3 align="left" style="margin-top:40px;">📄 Standard Citation</h3>
 <h4>
-Moreira, I. S. (2025). PRIORF – Protocol for Road Infrastructure Operational Risk due to Flooding. Zenodo. https://doi.org/10.5281/zenodo.17168269
+Moreira, I. S. (2026). PRIORF – Protocol for Road Infrastructure Operational Risk due to Flooding. Zenodo. https://doi.org/10.5281/zenodo.18990241
 </h4>
 
 ### 📘 **BibTeX format**
 ```bibtex
-@software{moreira_2025_17168269,
+@software{moreira_2026_18990241,
   author       = {Moreira, Igor Sieczkowski},
   title        = {PRIORF – Protocol for Road Infrastructure Operational Risk due to Flooding},
-  year         = {2025},
+  year         = {2026},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.17168269},
-  url          = {https://doi.org/10.5281/zenodo.17168269}
+  doi          = {10.5281/zenodo.18990241},
+  url          = {https://doi.org/10.5281/zenodo.18990241}
 }
 ```
 
