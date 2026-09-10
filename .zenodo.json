@@ -14,7 +14,7 @@
   "related_identifiers": [
     {
       "relation": "isSupplementTo",
-      "identifier": "https://github.com/igorsiecz/PRIORF"
+      "identifier": "https://github.com/LAPAV-UFRGS/PRIORF"
     }
   ],
   "notes": "See CITATION.cff for citation info. Changelog in CHANGELOG.md."

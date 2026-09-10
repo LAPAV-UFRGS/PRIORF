@@ -12,10 +12,21 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
+# Local credentials and account configuration
+Database/ee_credentials_path.txt
+
 # Models & big binaries under database
 Database/*.joblib
+*.part
 
-# Outras pastas/opcionais
+# Generated outputs and temporary processing files
+Resultados/
+cache/
+dem_tmp.tif
+Flow_accumulation_withnodata.tif
+hydro_tmp.geojson
+
+# Other local/optional files
 Icons/**.psd
 *.zip
 *.7z

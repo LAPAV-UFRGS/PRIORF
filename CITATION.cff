@@ -6,11 +6,11 @@ authors:
   - family-names: Sieczkowski Moreira
     given-names: Igor
     orcid: https://orcid.org/0000-0001-8101-6669
-repository-code: https://github.com/igorsiecz/PRIORF
+repository-code: https://github.com/LAPAV-UFRGS/PRIORF
 license: Apache-2.0
 version: 2.1.0
-date-released: 2025-11-03
-doi: 10.5281/zenodo.17168269
+date-released: 2026-03-12
+doi: 10.5281/zenodo.18990241
 identifiers:
   - type: doi
     value: 10.5281/zenodo.17168269
