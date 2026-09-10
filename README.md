@@ -6,7 +6,7 @@
 <h5 align="center">A GIS-based framework to assess flood-related operational risk in road networks.</h5>
 
 <p align="center">
-  <a href="https://github.com/igorsiecz/PRIORF/releases"><img src="https://img.shields.io/github/v/tag/igorsiecz/PRIORF?label=version&sort=semver&cacheSeconds=120" alt="Version"></a>&nbsp;
+  <a href="https://github.com/LAPAV-UFRGS/PRIORF/releases"><img src="https://img.shields.io/github/v/tag/LAPAV-UFRGS/PRIORF?label=version&sort=semver&cacheSeconds=120" alt="Version"></a>&nbsp;
   <a href="https://doi.org/10.5281/zenodo.17168269"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.17168269.svg" alt="DOI"></a>&nbsp;
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white" alt="Python Version">&nbsp;
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License"></a>
@@ -136,7 +136,7 @@ Get started with <b>PRIORF</b> in just a few steps — from cloning to running y
   <tr style="background-color:rgba(255,255,255,0.05);">
     <td style="padding:15px 25px;">
       💾 <b style="font-size:18px;">1. Clone the repository</b><br>
-      <code>git clone https://github.com/igorsiecz/PRIORF.git && cd PRIORF</code><br>
+      <code>git clone https://github.com/LAPAV-UFRGS/PRIORF.git && cd PRIORF</code><br>
       Clone the latest version of the repository to your local machine.
     </td>
   </tr>
@@ -194,7 +194,7 @@ Get started with <b>PRIORF</b> in just a few steps — from cloning to running y
   <tr><td>
     <h3>1) Clone the repository</h3>
     <p>Download the PRIORF source code and move into the project folder.</p>
-    <pre><code>git clone https://github.com/igorsiecz/PRIORF.git
+    <pre><code>git clone https://github.com/LAPAV-UFRGS/PRIORF.git
 cd PRIORF</code></pre>
   </td></tr>
   <tr><td><h6 align="center">Tip — If you already cloned it before, just run <code>git pull</code>.</h6></td></tr>
