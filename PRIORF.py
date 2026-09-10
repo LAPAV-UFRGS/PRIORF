@@ -124,14 +124,14 @@ DEFAULT_MODELS = [
         "path": "Database/model_rf.joblib",
         "sha256": "C1E02E41FE6B6CA0E8C65C4FDF235F41A93454DAB1F8C5DB6B447DCE4F20FF7B",
         "urls": [
-            "https://github.com/igorsiecz/PRIORF/releases/download/v2.0.0/model_rf.joblib",
+            "https://github.com/LAPAV-UFRGS/PRIORF/releases/download/v2.0.0/model_rf.joblib",
         ],
     },
     {
         "path": "Database/model_hgbr.joblib",
         "sha256": "4C767E0F862EC243AD9B72AC56D98EC130F2F062849C9F0ADD24EEC7B6BE9B89",
         "urls": [
-            "https://github.com/igorsiecz/PRIORF/releases/download/v2.0.0/model_hgbr.joblib",
+            "https://github.com/LAPAV-UFRGS/PRIORF/releases/download/v2.0.0/model_hgbr.joblib",
         ],
     },
 ]
@@ -270,7 +270,7 @@ def thread_excepthook(args):
     if spinner_fn:
         try:
             spinner_fn()
-        except Exception:
+        except:
             pass
     log(error, "FATAL ERROR DETECTED:", color="red")
     log_spacing(f"{args.exc_type}: {args.exc_value}", font_size=13, color="red")
@@ -2754,15 +2754,15 @@ def visualizar_top10(risk_raster_path, path_top10, bbox_coords, output_path):
     lat_diff, lon_diff = ne_lat - sw_lat, ne_lng - sw_lng
     max_diff = max(lat_diff, lon_diff)
     if   max_diff < 0.005: zoom = 17
-    elif max_diff < 0.01: zoom = 16
-    elif max_diff < 0.02: zoom = 15
-    elif max_diff < 0.05: zoom = 14
-    elif max_diff < 0.1: zoom = 13
-    elif max_diff < 0.5: zoom = 12
-    elif max_diff < 1.0: zoom = 11
-    elif max_diff < 2.0: zoom = 10
-    elif max_diff < 5.0: zoom = 9
-    elif max_diff < 10.0: zoom = 8
+    elif max_diff < 0.01:  zoom = 16
+    elif max_diff < 0.02:  zoom = 15
+    elif max_diff < 0.05:  zoom = 14
+    elif max_diff < 0.1:  zoom = 13
+    elif max_diff < 0.5:   zoom = 12
+    elif max_diff < 1.0:   zoom = 11
+    elif max_diff < 2.0:   zoom = 10
+    elif max_diff < 5.0:   zoom = 9
+    elif max_diff < 10.0:  zoom = 8
     else: zoom = 6
     with rasterio.open(risk_raster_path) as src:
         burn_id = src.read(1).astype(int)
